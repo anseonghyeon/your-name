@@ -20,7 +20,7 @@
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath,true));
             writer.write(text);
-            writer.flush();
+//            writer.flush();
             writer.close();
         } catch (Exception e) {
             out.println(e);
