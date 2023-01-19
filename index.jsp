@@ -30,6 +30,7 @@
       .footer {
         position : absolute;
         bottom : 0;
+        background-color: cadetblue;
       }
 
     </style>
