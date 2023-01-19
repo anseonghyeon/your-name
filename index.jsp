@@ -27,6 +27,11 @@
         width: 400px;
       }
 
+      .footer {
+        position : absolute;
+        bottom : 0;
+      }
+
     </style>
   </head>
   <body class="outer">
@@ -46,7 +51,7 @@
   </form>
 
   <footer class="footer">
-
+    <h1>asdasdasdsa</h1>
   </footer>
 </body>
 </html>
