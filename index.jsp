@@ -43,7 +43,10 @@
   <div class="inner">
     <div class="outer">
 <%--      <h1 class="haed-line inner">너의 이름은?</h1>--%>
-      <img src="banner.jpg" class="haed-line inner" style="width: 300px; height: 300px">
+  <a href="index.jsp">
+    <img src="banner.jpg" class="haed-line inner" style="width: 300px; height: 300px">
+  </a>
+
     </div>
 
     <form method="post">
