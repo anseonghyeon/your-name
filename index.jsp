@@ -21,7 +21,7 @@
   </head>
   <body class="outer">
   <div class="inner">
-    <h1>Hello</h1>
+    <h1>What is your name</h1>
     <form>
       <input type="text">
       <input type="submit" value="검색">
