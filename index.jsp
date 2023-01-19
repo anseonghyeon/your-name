@@ -19,8 +19,8 @@
       }
       .haed-line {
         margin-bottom: 30px;
-        background-color: cornflowerblue;
-        /*color*/
+        /*background-color: cornflowerblue;*/
+        text-decoration-color: cornflowerblue;
       }
       .btn-outline-primary {
         width: 400px;
