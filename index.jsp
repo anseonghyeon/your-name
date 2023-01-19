@@ -19,6 +19,8 @@
       }
       .haed-line {
         margin-bottom: 30px;
+        background-color: cornflowerblue;
+        /*color*/
       }
       .btn-outline-primary {
         width: 400px;
@@ -28,7 +30,7 @@
   <body class="outer">
   <div class="inner">
     <div class="outer">
-      <h1 class="haed-line inner special-text">당신의 이름은?</h1>
+      <h1 class="haed-line inner">당신의 이름은?</h1>
     </div>
 
     <form method="post">
