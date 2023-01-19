@@ -21,10 +21,10 @@
   </head>
   <body class="outer">
   <div class="inner">
-    <h1>What is your name</h1>
+    <h1 class="">What is your name</h1>
     <form>
-      <input type="text">
-      <input type="submit" value="검색">
+      <input type="text" class="form-control">
+      <input type="submit" value="검색" class="btn btn-outline-primary">
     </form>
   </div>
   <form>
