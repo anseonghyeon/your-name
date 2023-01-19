@@ -20,6 +20,9 @@
       .haed-line {
         margin-bottom: 30px;
       }
+      .btn-outline-primary {
+        width: 100px;
+      }
     </style>
   </head>
   <body class="outer">
