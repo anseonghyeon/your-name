@@ -17,13 +17,16 @@
       .inner {
         margin: auto;
       }
+      .haed-line {
+        margin-bottom: 30px;
+      }
     </style>
   </head>
   <body class="outer">
   <div class="inner">
-    <h1 class="">What is your name</h1>
-    <form>
-      <input type="text" class="form-control">
+    <h1 class="haed-line">What is your name</h1>
+    <form method="post">
+      <input type="text" name="name" class="form-control">
       <input type="submit" value="검색" class="btn btn-outline-primary">
     </form>
   </div>
