@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.io.BufferedWriter" %>
+<%@ page import="java.io.FileWriter" %><%--
   Created by IntelliJ IDEA.
   User: anseonghyeon
   Date: 2023/01/19
@@ -11,6 +12,22 @@
     <title>Title</title>
 </head>
 <body>
+    <%
+        request.setCharacterEncoding("UTF-8");
+        String name = request.getParameter("name");
+        String text = request.getParameter("text");
+        String filePath = application.getRealPath("/"+name+".txt");
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(filePath,true));
+            writer.write(text);
+            writer.flush();
+            writer.close();
+        } catch (Exception e) {
+            out.println(e);
+        }
 
+
+
+    %>
 </body>
 </html>

@@ -56,7 +56,7 @@
         }
     %>
     <form action="write.jsp" method="post" style="position: absolute; bottom: 180px">
-        <input type="text">
+        <input type="text" name="text">
         <input type="submit">
     </form>
 </div>
