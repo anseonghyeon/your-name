@@ -19,7 +19,8 @@
         String filePath = application.getRealPath("/"+name+".txt");
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath,true));
-            writer.write(text);
+            writer.write("익명:"+text+"\n");
+
 //            writer.flush();
             writer.close();
         } catch (Exception e) {
