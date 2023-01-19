@@ -1,5 +1,6 @@
 <%@ page import="java.io.FileReader" %>
 <%@ page import="java.io.BufferedReader" %>
+<%@ page import="java.io.FileOutputStream" %>
 <%--
   Created by IntelliJ IDEA.
   User: anseonghyeon
@@ -53,7 +54,12 @@
     <%
             }
         } catch (Exception e) {
-            out.println(e);
+//            out.println(e);
+            FileOutputStream output = new FileOutputStream(filePath);
+            output.close();
+    %>
+            <jsp:forward page="read.jsp"></jsp:forward>
+    <%
         }
     %>
     <form action="write.jsp" method="post" style="position: absolute; bottom: 180px">
