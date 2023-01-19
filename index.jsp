@@ -22,6 +22,10 @@
   <body class="outer">
   <div class="inner">
     <h1>Hello</h1>
+    <form>
+      <input type="text">
+      <input type="submit">
+    </form>
   </div>
   <form>
 
