@@ -27,34 +27,10 @@
         width: 400px;
       }
 
-      html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
-
-      .body-wrapper {
-        min-height: 100%;
-        position: relative;
-      }
-
-      .body-content {
-        margin-top: 100px;
-        padding-bottom: 99999px; /* footer의 높이 */
-      }
-
-      footer {
-        width: 100%;
-        height: 99999px; /* footer의 높이 */
-        position: absolute;
-        bottom: 0;
-        left: 0;
-      }
     </style>
   </head>
   <body class="outer">
-  <div class="body-wrapper">
-  <div class="body-content">
+
   <div class="inner">
     <div class="outer">
       <h1 class="haed-line inner">너의 이름은?</h1>
@@ -68,10 +44,9 @@
   <form>
 
   </form>
-  </div>
+
   <footer class="footer">
-    aaa
+
   </footer>
-</div>
 </body>
 </html>
