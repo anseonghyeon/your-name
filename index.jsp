@@ -15,7 +15,7 @@
         display: flex;
       }
       .inner {
-        margin: auto 0;
+        margin: auto;
       }
     </style>
   </head>
