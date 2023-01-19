@@ -30,6 +30,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
 %>
 <%=name%>
