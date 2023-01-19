@@ -53,8 +53,8 @@
 
   </form>
 
-  <footer class="footer">
-    <div style="color: azure">Copyright 2023.anseonghyeon.All rights reserved.</div>
+  <footer class="footer outer">
+    <div style="color: azure" class="inner">Copyright 2023.anseonghyeon.All rights reserved.</div>
   </footer>
 </body>
 </html>
