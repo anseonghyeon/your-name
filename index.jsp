@@ -28,7 +28,7 @@
   <body class="outer">
   <div class="inner">
     <div class="outer">
-      <h1 class="haed-line">What is your name</h1>
+      <h1 class="haed-line,inner">What is your name</h1>
     </div>
 
     <form method="post">
