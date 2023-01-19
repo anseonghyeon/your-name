@@ -26,8 +26,7 @@
             out.println(e);
         }
 
-
-
     %>
+    <jsp:forward page="index.jsp"></jsp:forward>
 </body>
 </html>
