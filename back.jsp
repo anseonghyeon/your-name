@@ -1,3 +1,5 @@
+<%@ page import="java.io.FileReader" %>
+<%@ page import="java.io.BufferedReader" %>
 <%--
   Created by IntelliJ IDEA.
   User: anseonghyeon
@@ -32,8 +34,18 @@
 <%
     request.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
+    String filePath = name+".txt";
+    String line = null;
+    try {
+        BufferedReader reader = new BufferedReader(new FileReader(filePath));
+        while((line = reader.readLine()) != null) {
+            out.println(line);
+        }
+    } catch (Exception e) {
+
+    }
 %>
-<%=name%>
+<%--<%=name%>--%>
 
 
 <footer class="footer outer">
