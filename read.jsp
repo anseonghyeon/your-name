@@ -31,7 +31,7 @@
     </style>
 </head>
 <body class="outer">
-<div class="inner" style="background-color: cornflowerblue; width: 200px; height: 100px">
+<div class="inner" style="background-color: cornflowerblue; width: 200px; height: 100px; border-radius: 30px">
     <%
         request.setCharacterEncoding("UTF-8");
         String name = request.getParameter("name");
