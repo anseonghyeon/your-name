@@ -54,7 +54,7 @@
   </form>
 
   <footer class="footer">
-    <h1 style="color: azure">asdasdasdsa</h1>
+    <div style="color: azure">Copyright 2023.anseonghyeon.All rights reserved.</div>
   </footer>
 </body>
 </html>
