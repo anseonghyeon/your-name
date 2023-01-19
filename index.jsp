@@ -24,7 +24,7 @@
     <h1>Hello</h1>
     <form>
       <input type="text">
-      <input type="submit">
+      <input type="submit" value="검색">
     </form>
   </div>
   <form>
