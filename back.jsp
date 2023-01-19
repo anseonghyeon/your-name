@@ -44,7 +44,7 @@
 <%
         }
     } catch (Exception e) {
-
+        out.println("에러발생");
     }
 %>
 <%--<%=name%>--%>
