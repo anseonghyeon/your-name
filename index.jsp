@@ -20,7 +20,8 @@
       .haed-line {
         margin-bottom: 30px;
         /*background-color: cornflowerblue;*/
-        text-decoration-color: cornflowerblue;
+        /*text-decoration-color: cornflowerblue;*/
+        color: cornflowerblue;
       }
       .btn-outline-primary {
         width: 400px;
