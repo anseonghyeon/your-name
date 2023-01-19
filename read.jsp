@@ -35,8 +35,9 @@
     request.setCharacterEncoding("UTF-8");
     String n = request.getParameter("name");
 %>
-<h1><%=n%></h1>
+
 <div class="inner" style="background-color: cornflowerblue; width: 600px; height: 600px; border-radius: 30px; padding: 30px">
+    <h1><%=n%></h1>
     <%
         request.setCharacterEncoding("UTF-8");
         String name = request.getParameter("name");
