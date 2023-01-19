@@ -30,7 +30,7 @@
       .footer {
         position : absolute;
         bottom : 0;
-        background-color: #292929;
+        background-color: #161a29;
         width: 100%;
         height: 11%;
       }
