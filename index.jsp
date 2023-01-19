@@ -43,7 +43,7 @@
   <div class="inner">
     <div class="outer">
 <%--      <h1 class="haed-line inner">너의 이름은?</h1>--%>
-  <a href="index.jsp">
+  <a href="index.jsp" class="haed-line inner">
     <img src="banner.jpg" class="haed-line inner" style="width: 300px; height: 300px">
   </a>
 
