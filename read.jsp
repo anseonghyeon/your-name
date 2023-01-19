@@ -49,6 +49,10 @@
             out.println(e);
         }
     %>
+    <form action="write.jsp" method="post">
+        <input type="text">
+        <input type="submit">
+    </form>
 </div>
 
 <footer class="footer outer">
