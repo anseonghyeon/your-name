@@ -19,7 +19,7 @@
         margin: auto;
       }
       .haed-line {
-        /*margin-bottom: 30px;*/
+        margin-bottom: 30px;
         /*background-color: cornflowerblue;*/
         /*text-decoration-color: cornflowerblue;*/
         color: cornflowerblue;
