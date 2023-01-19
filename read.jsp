@@ -34,7 +34,7 @@
 <%
     request.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
-    String filePath = name+".txt";
+    String filePath = application.getRealPath("/"+name+".txt");
     String line = null;
     try {
         BufferedReader reader = new BufferedReader(new FileReader(filePath));

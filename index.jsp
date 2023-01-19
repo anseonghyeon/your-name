@@ -50,7 +50,7 @@
 
     </div>
 
-    <form action="back.jsp" method="post">
+    <form action="read.jsp" method="post">
       <input type="text" name="name" class="form-control">
       <input type="submit" value="검색" class="btn btn-outline-primary">
     </form>
