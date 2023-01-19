@@ -55,7 +55,8 @@
 
   <footer class="footer outer">
     <div style="color: azure" class="inner">Copyright 2023.anseonghyeon.All rights reserved.</div>
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png?w=360">
+    <a href="https://github.com/anseonghyeon/your-name"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png?w=360"></a>
+
   </footer>
 </body>
 </html>
