@@ -31,28 +31,25 @@
     </style>
 </head>
 <body class="outer">
-<%
-    request.setCharacterEncoding("UTF-8");
-    String name = request.getParameter("name");
-    String filePath = application.getRealPath("/"+name+".txt");
-    String line = null;
-    try {
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
-        while((line = reader.readLine()) != null) {
-%>
-            <div class="inner">
+<div class="inner">
+    <%
+        request.setCharacterEncoding("UTF-8");
+        String name = request.getParameter("name");
+        String filePath = application.getRealPath("/"+name+".txt");
+        String line = null;
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(filePath));
+            while((line = reader.readLine()) != null) {
+    %>
                 <%=line%>
                 <br>
-            </div>
-
-<%
+    <%
+            }
+        } catch (Exception e) {
+            out.println(e);
         }
-    } catch (Exception e) {
-        out.println(e);
-    }
-%>
-<%--<%=name%>--%>
-
+    %>
+</div>
 
 <footer class="footer outer">
     <div style="color: azure" class="inner">Copyright 2023.anseonghyeon.All rights reserved.
