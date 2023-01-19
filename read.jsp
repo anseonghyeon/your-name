@@ -41,6 +41,7 @@
     <%
         request.setCharacterEncoding("UTF-8");
         String name = request.getParameter("name");
+        session.setAttribute("name",name);
         String filePath = application.getRealPath("/"+name+".txt");
         String line = null;
         try {

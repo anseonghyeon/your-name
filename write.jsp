@@ -14,7 +14,7 @@
 <body>
     <%
         request.setCharacterEncoding("UTF-8");
-        String name = request.getParameter("name");
+        String name = (String)session.getAttribute("name");
         String text = request.getParameter("text");
         String filePath = application.getRealPath("/"+name+".txt");
         try {
