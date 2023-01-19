@@ -49,7 +49,7 @@
             out.println(e);
         }
     %>
-    <form action="write.jsp" method="post">
+    <form action="write.jsp" method="post" class="footer outer">
         <input type="text">
         <input type="submit">
     </form>
