@@ -26,12 +26,25 @@
       .btn-outline-primary {
         width: 400px;
       }
+
+      .body-wrapper {
+        min-height: 100%;
+        position: relative;
+      }
+
+      .body-content {
+        margin-top: 100px;
+        padding-bottom: 99999px; /* footer의 높이 */
+      }
+
     </style>
   </head>
   <body class="outer">
+  <div class="body-wrapper">
+  <div class="body-content">
   <div class="inner">
     <div class="outer">
-      <h1 class="haed-line inner">당신의 이름은?</h1>
+      <h1 class="haed-line inner">너의 이름은?</h1>
     </div>
 
     <form method="post">
@@ -42,9 +55,10 @@
   <form>
 
   </form>
-
-  <footer>
+  </div>
+  <footer class="footer">
     aaa
   </footer>
-  </body>
+</div>
+</body>
 </html>
