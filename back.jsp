@@ -39,7 +39,9 @@
     try {
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         while((line = reader.readLine()) != null) {
-            out.println(line);
+%>
+            <%=line%>
+<%
         }
     } catch (Exception e) {
 
