@@ -31,9 +31,8 @@
 <body>
 <%
     String name = request.getParameter("name");
-
 %>
-
+<%=name%>
 
 
 <footer class="footer outer">
