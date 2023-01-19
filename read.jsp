@@ -41,6 +41,7 @@
         while((line = reader.readLine()) != null) {
 %>
             <%=line%>
+            <br>
 <%
         }
     } catch (Exception e) {
