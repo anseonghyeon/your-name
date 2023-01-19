@@ -54,8 +54,10 @@
   </form>
 
   <footer class="footer outer">
-    <div style="color: azure" class="inner">Copyright 2023.anseonghyeon.All rights reserved.</div>
-    <a href="https://github.com/anseonghyeon/your-name"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png?w=360" style="width: 50px; height: 50px"></a>
+    <div style="color: azure" class="inner">Copyright 2023.anseonghyeon.All rights reserved.
+      <a href="https://github.com/anseonghyeon/your-name"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png?w=360" style="width: 50px; height: 50px"></a>
+    </div>
+
 
   </footer>
 </body>
