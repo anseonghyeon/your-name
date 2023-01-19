@@ -21,7 +21,7 @@
         margin-bottom: 30px;
       }
       .btn-outline-primary {
-        width: 500px;
+        width: 400px;
       }
     </style>
   </head>
