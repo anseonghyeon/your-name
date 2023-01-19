@@ -32,6 +32,7 @@
         bottom : 0;
         background-color: cadetblue;
         width: 100%;
+        height: 15%;
       }
 
     </style>
