@@ -54,7 +54,7 @@
   </form>
 
   <footer class="footer">
-    <h1>asdasdasdsa</h1>
+    <h1 style="color: azure">asdasdasdsa</h1>
   </footer>
 </body>
 </html>
