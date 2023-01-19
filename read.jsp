@@ -49,7 +49,7 @@
             out.println(e);
         }
     %>
-    <form action="write.jsp" method="post" style="position: absolute; bottom: 200px">
+    <form action="write.jsp" method="post" style="position: absolute; bottom: 180px">
         <input type="text">
         <input type="submit">
     </form>
