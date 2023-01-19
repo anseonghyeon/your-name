@@ -30,7 +30,7 @@
         }
     </style>
 </head>
-<body>
+<body class="outer">
 <%
     request.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
@@ -40,8 +40,11 @@
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         while((line = reader.readLine()) != null) {
 %>
-            <%=line%>
-            <br>
+            <div class="inner">
+                <%=line%>
+                <br>
+            </div>
+
 <%
         }
     } catch (Exception e) {
