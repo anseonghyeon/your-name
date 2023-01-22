@@ -17,9 +17,10 @@
         String name = (String)session.getAttribute("name");
         String text = request.getParameter("text");
         String filePath = application.getRealPath("/"+name+".txt");
+        String memberId = (String)session.getAttribute("MEMBERID");
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath,true));
-            writer.write("익명:"+text+"\n");
+            writer.write(memberId+":"+text+"\n");
 
 //            writer.flush();
             writer.close();
