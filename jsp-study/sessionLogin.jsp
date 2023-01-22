@@ -43,9 +43,9 @@
                 String memberId = (String)session.getAttribute("MEMBERID");
                 boolean login = memberId == null ? false : true;
                 if(login) {
-                    response.sendRedirect("/index.jsp");
+//                    response.sendRedirect("/index.jsp");
 %>
-<%--<jsp:forward page="/index.jsp"></jsp:forward>--%>
+<jsp:forward page="/index.jsp"></jsp:forward>
 
 
 
