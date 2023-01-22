@@ -45,16 +45,21 @@
                 if(login) {
 %>
 <jsp:forward page="/index.jsp"></jsp:forward>
-                <div class="box">
 
-                    <h1>현재"<%=memberId%>"로 접속 중입니다</h1>
-                    <div style="height: 600px; width: 600px; background-color: cornflowerblue">
-
-                    </div>
 
 
 <%
                 }
+            } else {
+                %>
+
+<div class="box">
+
+    <h1>없는 계정으로 접근중입니다</h1>
+    <div style="height: 600px; width: 600px; background-color: cornflowerblue">
+
+    </div>
+                    <%
             }
         }
 
