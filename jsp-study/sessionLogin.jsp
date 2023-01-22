@@ -45,8 +45,8 @@
                 if(login) {
 //                    response.sendRedirect("/index.jsp");
 %>
-<jsp:forward page="/index.jsp"></jsp:forward>
-
+<%--<jsp:forward page="/index.jsp"></jsp:forward>--%>
+<jsp:include page="/index.jsp"></jsp:include>
 
 
 <%
